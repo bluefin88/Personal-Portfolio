@@ -1,0 +1,80 @@
+
+.navbar{
+    border-radius: 0;
+}
+
+.navbar-default{
+    /*background-image: none;
+    background-color: orange;*/
+    border-color: #E7E7E7;
+}
+
+
+.navbar-default .navbar-nav > li > a{
+    color:aqua;
+}
+
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #FFFF00;
+    color: #FFC0CB;
+}
+
+.content{
+    height:200px;
+    background-color: aquamarine;
+    margin:0;
+    padding:0;
+}
+
+.content2{
+    height:200px;
+    background-color: darkturquoise;
+}
+
+.jumbotron{
+    height:500px;
+    background-size: cover;
+    background-image:linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url("hero.jpg");
+    color:white;
+}
+
+.jumbo-content{
+    margin-top:150px;
+}
+
+#bottom-text{
+    margin-bottom:20px;
+}
+
+#portfolio{
+    background-color:#F0F0F0;
+    margin-bottom:20px;
+}
+
+#footer{
+    background-color:yellow;
+}
+
+#contact{
+    background-color: yellowgreen;
+}
+
+.projects{
+    margin-bottom: 40px;
+}
+
+.projects img{
+    width:100%
+}
+
+.skills{
+    margin-bottom:20px;
+}
+
+#contact{
+    padding-bottom: 30px;
+}
